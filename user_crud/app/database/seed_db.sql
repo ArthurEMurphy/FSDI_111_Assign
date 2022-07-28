@@ -5,7 +5,7 @@ CREATE TABLE user (
     first_name VARCHAR(40) NOT NULL, 
     Last_name VARCHAR(40) NOT NULL,
     hobbies TEXT,
-    activate BOOLEAN NOT NULL DEFAULT 1
+    active BOOLEAN NOT NULL DEFAULT 1
 );
 
 
