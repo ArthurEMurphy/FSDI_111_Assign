@@ -14,7 +14,7 @@ def output_formatter(results):
     return out
 
 
-    def scan()
+def scan()
     cursor = get_db().execute(
         "SELECT * FROM user WHERE active=1", ())
         results = cursor.fetchall()
